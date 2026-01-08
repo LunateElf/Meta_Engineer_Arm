@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <!-- Assembly -->
+  <!--Export the mesh manually to unnamed_j0_28nvuc.dae-->
+  <collision>
+    <!--Assembly/Part__Feature.-->
+    <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
+    <geometry>
+      <mesh filename="package://$package_name$/meshes/unnamed_j0_28nvuc.dae"/>
+    </geometry>
+  </collision>
+  <!--Export the mesh manually to unnamed_link1_pxqgzv.dae-->
+  <collision>
+    <!--Assembly/Part__Feature001.-->
+    <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
+    <geometry>
+      <mesh filename="package://$package_name$/meshes/unnamed_link1_pxqgzv.dae"/>
+    </geometry>
+  </collision>
+  <!--Export the mesh manually to unnamed_link2_ciefqz.dae-->
+  <collision>
+    <!--Assembly/Part__Feature002.-->
+    <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
+    <geometry>
+      <mesh filename="package://$package_name$/meshes/unnamed_link2_ciefqz.dae"/>
+    </geometry>
+  </collision>
+  <!--Export the mesh manually to unnamed_link3_v8sebp.dae-->
+  <collision>
+    <!--Assembly/Part__Feature003.-->
+    <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
+    <geometry>
+      <mesh filename="package://$package_name$/meshes/unnamed_link3_v8sebp.dae"/>
+    </geometry>
+  </collision>
+  <!--Export the mesh manually to unnamed_base_hrrzn6.dae-->
+  <collision>
+    <!--Assembly/Part__Feature004.-->
+    <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
+    <geometry>
+      <mesh filename="package://$package_name$/meshes/unnamed_base_hrrzn6.dae"/>
+    </geometry>
+  </collision>
+  <!--Export the mesh manually to unnamed_link4_cwzz5h.dae-->
+  <collision>
+    <!--Assembly/Part__Feature005.-->
+    <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
+    <geometry>
+      <mesh filename="package://$package_name$/meshes/unnamed_link4_cwzz5h.dae"/>
+    </geometry>
+  </collision>
+  <!--Export the mesh manually to unnamed_j56_dnorjj.dae-->
+  <collision>
+    <!--Assembly/Part__Feature006.-->
+    <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
+    <geometry>
+      <mesh filename="package://$package_name$/meshes/unnamed_j56_dnorjj.dae"/>
+    </geometry>
+  </collision>
+  <!--Export the mesh manually to unnamed_claw_zk3s8o.dae-->
+  <collision>
+    <!--Assembly/Part__Feature007.-->
+    <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
+    <geometry>
+      <mesh filename="package://$package_name$/meshes/unnamed_claw_zk3s8o.dae"/>
+    </geometry>
+  </collision>
+

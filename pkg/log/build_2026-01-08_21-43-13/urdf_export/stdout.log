@@ -1,0 +1,63 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jerry/Meta_Engineer_Arm/pkg/build/urdf_export
+-- Install configuration: ""
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/launch
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/launch/display.launch.py
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/launch/description.launch.py
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/launch/gazebo.launch.py
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/meshes
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/meshes/arm_cad_link1_kmxu8b.dae
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/meshes/arm_cad_link5_wauaem.dae
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/meshes/arm_cad_link0_hxjlaj.dae
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/meshes/arm_cad_claw_d60vqu.dae
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/meshes/arm_cad_base_l8pdmd.dae
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/meshes/arm_cad_link2_1eqjgf.dae
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/meshes/arm_cad_link4_wqzhg2.dae
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/meshes/arm_cad_link3_m8x0cv.dae
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/rviz
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/rviz/robot_description.rviz
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/urdf
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/urdf/Robot_sensors.urdf.xacro
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/urdf/Robot_wrapper.urdf.xacro
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/urdf/Robot.urdf
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/worlds
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/worlds/empty.sdf
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/worlds/move_code
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/worlds/move_code/.gitkeep
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/worlds/cars_and_trees.sdf
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/worlds/empty_world.sdf
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/ament_index/resource_index/package_run_dependencies/urdf_export
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/ament_index/resource_index/parent_prefix_path/urdf_export
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/environment/ament_prefix_path.sh
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/environment/ament_prefix_path.dsv
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/environment/path.sh
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/environment/path.dsv
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/local_setup.bash
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/local_setup.sh
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/local_setup.zsh
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/local_setup.dsv
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/package.dsv
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/ament_index/resource_index/packages/urdf_export
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/cmake/urdf_exportConfig.cmake
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/cmake/urdf_exportConfig-version.cmake
+-- Installing: /home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export/share/urdf_export/package.xml
