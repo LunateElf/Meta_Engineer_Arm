@@ -1,6 +1,0 @@
-Invoking command in '/home/jerry/Meta_Engineer_Arm/pkg/build/urdf_export': /usr/bin/cmake /home/jerry/Meta_Engineer_Arm/pkg/src -DCMAKE_INSTALL_PREFIX=/home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export
-Invoked command in '/home/jerry/Meta_Engineer_Arm/pkg/build/urdf_export' returned '0': /usr/bin/cmake /home/jerry/Meta_Engineer_Arm/pkg/src -DCMAKE_INSTALL_PREFIX=/home/jerry/Meta_Engineer_Arm/pkg/install/urdf_export
-Invoking command in '/home/jerry/Meta_Engineer_Arm/pkg/build/urdf_export': /usr/bin/cmake --build /home/jerry/Meta_Engineer_Arm/pkg/build/urdf_export -- -j24 -l24
-Invoked command in '/home/jerry/Meta_Engineer_Arm/pkg/build/urdf_export' returned '0': /usr/bin/cmake --build /home/jerry/Meta_Engineer_Arm/pkg/build/urdf_export -- -j24 -l24
-Invoking command in '/home/jerry/Meta_Engineer_Arm/pkg/build/urdf_export': /usr/bin/cmake --install /home/jerry/Meta_Engineer_Arm/pkg/build/urdf_export
-Invoked command in '/home/jerry/Meta_Engineer_Arm/pkg/build/urdf_export' returned '0': /usr/bin/cmake --install /home/jerry/Meta_Engineer_Arm/pkg/build/urdf_export

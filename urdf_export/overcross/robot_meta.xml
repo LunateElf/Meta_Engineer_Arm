@@ -6,12 +6,12 @@
  <meshesDir>meshes </meshesDir>
  <robotType>nonspecific</robotType>
  <generateCodeForRosVersion>jazzy</generateCodeForRosVersion>
- <rootLinkName>l_Claw001</rootLinkName>
+ <rootLinkName>l_Base001</rootLinkName>
  <xacroWrapperFileName>Robot_wrapper.urdf.xacro</xacroWrapperFileName>
  <controllersConfigFileName>Robot_controllers.yaml</controllersConfigFileName>
  <joints>
   <joint>
-   <name>l_Claw001__to__l_Link006</name>
+   <name>l_Base001__to__l_Link006</name>
    <jointSpecific>unset</jointSpecific>
    <jointRotationDirection>unset</jointRotationDirection>
    <jointRelTotalCenterOfMass_x>0.0</jointRelTotalCenterOfMass_x>
@@ -19,7 +19,7 @@
    <jointRelTotalCenterOfMass_z>0.0</jointRelTotalCenterOfMass_z>
   </joint>
   <joint>
-   <name>l_Link006__to__l_Link008</name>
+   <name>l_Link006__to__l_Link007</name>
    <jointSpecific>unset</jointSpecific>
    <jointRotationDirection>unset</jointRotationDirection>
    <jointRelTotalCenterOfMass_x>0.0</jointRelTotalCenterOfMass_x>
@@ -27,7 +27,7 @@
    <jointRelTotalCenterOfMass_z>0.0</jointRelTotalCenterOfMass_z>
   </joint>
   <joint>
-   <name>l_Link008__to__l_Link010</name>
+   <name>l_Link007__to__l_Link008</name>
    <jointSpecific>unset</jointSpecific>
    <jointRotationDirection>unset</jointRotationDirection>
    <jointRelTotalCenterOfMass_x>0.0</jointRelTotalCenterOfMass_x>
@@ -35,7 +35,7 @@
    <jointRelTotalCenterOfMass_z>0.0</jointRelTotalCenterOfMass_z>
   </joint>
   <joint>
-   <name>l_Link010__to__l_Link012</name>
+   <name>l_Link008__to__l_Link009</name>
    <jointSpecific>unset</jointSpecific>
    <jointRotationDirection>unset</jointRotationDirection>
    <jointRelTotalCenterOfMass_x>0.0</jointRelTotalCenterOfMass_x>
@@ -43,7 +43,7 @@
    <jointRelTotalCenterOfMass_z>0.0</jointRelTotalCenterOfMass_z>
   </joint>
   <joint>
-   <name>l_Link012__to__l_Link014</name>
+   <name>l_Link009__to__l_Link010</name>
    <jointSpecific>unset</jointSpecific>
    <jointRotationDirection>unset</jointRotationDirection>
    <jointRelTotalCenterOfMass_x>0.0</jointRelTotalCenterOfMass_x>
@@ -51,7 +51,7 @@
    <jointRelTotalCenterOfMass_z>0.0</jointRelTotalCenterOfMass_z>
   </joint>
   <joint>
-   <name>l_Link014__to__l_Link016</name>
+   <name>l_Link010__to__l_Link011</name>
    <jointSpecific>unset</jointSpecific>
    <jointRotationDirection>unset</jointRotationDirection>
    <jointRelTotalCenterOfMass_x>0.0</jointRelTotalCenterOfMass_x>
@@ -59,7 +59,7 @@
    <jointRelTotalCenterOfMass_z>0.0</jointRelTotalCenterOfMass_z>
   </joint>
   <joint>
-   <name>l_Link016__to__l_Base001</name>
+   <name>l_Link011__to__l_Claw001</name>
    <jointSpecific>unset</jointSpecific>
    <jointRotationDirection>unset</jointRotationDirection>
    <jointRelTotalCenterOfMass_x>0.0</jointRelTotalCenterOfMass_x>
