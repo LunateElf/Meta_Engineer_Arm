@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(urdf_export)
+project(meta_engineer_arm)
 
 find_package(ament_cmake REQUIRED)
 

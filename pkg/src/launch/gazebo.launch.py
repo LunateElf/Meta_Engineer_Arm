@@ -19,7 +19,7 @@ from launch_ros.substitutions import FindPackageShare
 
 def generate_launch_description():
 
-    resources_package = 'urdf_export'
+    resources_package = 'meta_engineer_arm'
 
     # Make path to resources dir without last package_name fragment.
     path_to_share_dir_clipped = ''.join(get_package_share_directory(resources_package).rsplit('/' + resources_package, 1))

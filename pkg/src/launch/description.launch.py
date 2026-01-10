@@ -10,7 +10,7 @@ from launch_ros.parameter_descriptions import ParameterValue
 
 
 def generate_launch_description():
-    pkg_share = Path(launch_ros.substitutions.FindPackageShare(package='urdf_export').find('urdf_export'))
+    pkg_share = Path(launch_ros.substitutions.FindPackageShare(package='meta_engineer_arm').find('meta_engineer_arm'))
     default_model_path = pkg_share / 'urdf/Robot_wrapper.urdf.xacro'
 
     use_sim_time = LaunchConfiguration('use_sim_time')

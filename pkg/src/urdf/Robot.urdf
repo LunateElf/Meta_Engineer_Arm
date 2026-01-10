@@ -6,7 +6,7 @@
       <!--Base001/Base001.-->
       <origin rpy="1.5707963267948968 0 -3.141592653589793" xyz="0.0 0.0 0.005"/>
       <geometry>
-        <mesh filename="package://urdf_export/meshes/arm_cad_base_kj48jr.dae"/>
+        <mesh filename="package://meta_engineer_arm/meshes/arm_cad_base_kj48jr.dae"/>
       </geometry>
     </visual>
     <collision>
@@ -22,7 +22,7 @@
       <!--Link006/Link001.-->
       <origin rpy="-1.5707963267948963 0 0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://urdf_export/meshes/arm_cad_link0_7pttdh.dae"/>
+        <mesh filename="package://meta_engineer_arm/meshes/arm_cad_link0_7pttdh.dae"/>
       </geometry>
     </visual>
     <collision>
@@ -38,7 +38,7 @@
       <!--Link007/Link002.-->
       <origin rpy="-3.1415926535897927 0 1.5707963267948963" xyz="-0.091 0.0 0.045"/>
       <geometry>
-        <mesh filename="package://urdf_export/meshes/arm_cad_link1_el1qd7.dae"/>
+        <mesh filename="package://meta_engineer_arm/meshes/arm_cad_link1_el1qd7.dae"/>
       </geometry>
     </visual>
     <collision>
@@ -54,7 +54,7 @@
       <!--Link008/Link003.-->
       <origin rpy="0 0 1.5707963267948963" xyz="0.091 0.31 0.047"/>
       <geometry>
-        <mesh filename="package://urdf_export/meshes/arm_cad_link2_zjndgx.dae"/>
+        <mesh filename="package://meta_engineer_arm/meshes/arm_cad_link2_zjndgx.dae"/>
       </geometry>
     </visual>
     <collision>
@@ -70,7 +70,7 @@
       <!--Link009/Link004.-->
       <origin rpy="1.5390863016400926 -1.5707963267948897 -1.5390863016400926" xyz="-0.001 -0.091 0.515"/>
       <geometry>
-        <mesh filename="package://urdf_export/meshes/arm_cad_link3_edo7o8.dae"/>
+        <mesh filename="package://meta_engineer_arm/meshes/arm_cad_link3_edo7o8.dae"/>
       </geometry>
     </visual>
     <collision>
@@ -86,7 +86,7 @@
       <!--Link010/Link005.-->
       <origin rpy="3.141592653589793 0 0.06108652381981069" xyz="0.578353 0.126544 0.0365"/>
       <geometry>
-        <mesh filename="package://urdf_export/meshes/arm_cad_link4_rbcbnv.dae"/>
+        <mesh filename="package://meta_engineer_arm/meshes/arm_cad_link4_rbcbnv.dae"/>
       </geometry>
     </visual>
     <collision>
@@ -102,7 +102,7 @@
       <!--Link011/Link006.-->
       <origin rpy="-3.141592653589793 0 0" xyz="0.743 0.091 -0.0415"/>
       <geometry>
-        <mesh filename="package://urdf_export/meshes/arm_cad_link5_pga2bj.dae"/>
+        <mesh filename="package://meta_engineer_arm/meshes/arm_cad_link5_pga2bj.dae"/>
       </geometry>
     </visual>
     <collision>
@@ -118,7 +118,7 @@
       <!--Claw001/Claw001.-->
       <origin rpy="1.6341527345556497 -1.5707963267948897 -1.6341527345556497" xyz="-0.0025 -0.091 0.768"/>
       <geometry>
-        <mesh filename="package://urdf_export/meshes/arm_cad_claw_15ag4t.dae"/>
+        <mesh filename="package://meta_engineer_arm/meshes/arm_cad_claw_15ag4t.dae"/>
       </geometry>
     </visual>
     <collision>

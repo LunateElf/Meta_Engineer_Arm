@@ -10,7 +10,7 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 
 
 def generate_launch_description():
-    pkg_share = Path(launch_ros.substitutions.FindPackageShare(package='urdf_export').find('urdf_export'))
+    pkg_share = Path(launch_ros.substitutions.FindPackageShare(package='meta_engineer_arm').find('meta_engineer_arm'))
     default_model_path = pkg_share / 'urdf/Robot_wrapper.urdf.xacro'
     default_rviz_config_path = pkg_share / 'rviz/robot_description.rviz'
 
@@ -19,7 +19,7 @@ def generate_launch_description():
     robot_state_publisher_node = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             PathJoinSubstitution([
-                FindPackageShare('urdf_export'),
+                FindPackageShare('meta_engineer_arm'),
                 'launch',
                 'description.launch.py',
             ]),
