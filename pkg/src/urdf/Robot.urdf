@@ -6,7 +6,7 @@
       <!--Base001/Base001.-->
       <origin rpy="1.5707963267948968 0 -3.141592653589793" xyz="0.0 0.0 0.005"/>
       <geometry>
-        <mesh filename="package://urdf_export/meshes/arm_cad_base_f6rent.dae"/>
+        <mesh filename="package://urdf_export/meshes/arm_cad_base_kj48jr.dae"/>
       </geometry>
     </visual>
     <collision>
@@ -22,7 +22,7 @@
       <!--Link006/Link001.-->
       <origin rpy="-1.5707963267948963 0 0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://urdf_export/meshes/arm_cad_link0_plebwo.dae"/>
+        <mesh filename="package://urdf_export/meshes/arm_cad_link0_7pttdh.dae"/>
       </geometry>
     </visual>
     <collision>
@@ -38,12 +38,12 @@
       <!--Link007/Link002.-->
       <origin rpy="-3.1415926535897927 0 1.5707963267948963" xyz="-0.091 0.0 0.045"/>
       <geometry>
-        <mesh filename="package://urdf_export/meshes/arm_cad_link1_onmsj3.dae"/>
+        <mesh filename="package://urdf_export/meshes/arm_cad_link1_el1qd7.dae"/>
       </geometry>
     </visual>
     <collision>
       <!--col__l_Link007__col_Link1__BoundBox/col_Link1__BoundBox.-->
-      <origin rpy="-1.5707963267948968 -1.5707963267948961 0" xyz="0.0 -0.154992 0.04625"/>
+      <origin rpy="-1.570796326794897 -1.5707963267948961 0" xyz="0.0 -0.154992 0.04625"/>
       <geometry>
         <box size="0.1025 0.08 0.389984812280998"/>
       </geometry>
@@ -54,12 +54,12 @@
       <!--Link008/Link003.-->
       <origin rpy="0 0 1.5707963267948963" xyz="0.091 0.31 0.047"/>
       <geometry>
-        <mesh filename="package://urdf_export/meshes/arm_cad_link2_1j56yr.dae"/>
+        <mesh filename="package://urdf_export/meshes/arm_cad_link2_zjndgx.dae"/>
       </geometry>
     </visual>
     <collision>
       <!--col__l_Link008__col_Link2__BoundBox/col_Link2__BoundBox.-->
-      <origin rpy="-1.570796326794897 -1.5707963267948963 0" xyz="0.0 -0.0775 0.046"/>
+      <origin rpy="-1.5707963267948968 -1.5707963267948961 0" xyz="0.0 -0.0775 0.046"/>
       <geometry>
         <box size="0.092 0.1 0.25500000000000034"/>
       </geometry>
@@ -68,9 +68,9 @@
   <link name="l_Link009">
     <visual>
       <!--Link009/Link004.-->
-      <origin rpy="1.6008485084231048 -1.5707963267948892 -1.6008485084231048" xyz="-0.001 -0.091 0.515"/>
+      <origin rpy="1.5390863016400926 -1.5707963267948897 -1.5390863016400926" xyz="-0.001 -0.091 0.515"/>
       <geometry>
-        <mesh filename="package://urdf_export/meshes/arm_cad_link3_vomrar.dae"/>
+        <mesh filename="package://urdf_export/meshes/arm_cad_link3_edo7o8.dae"/>
       </geometry>
     </visual>
     <collision>
@@ -84,14 +84,14 @@
   <link name="l_Link010">
     <visual>
       <!--Link010/Link005.-->
-      <origin rpy="-3.141592653589793 0 0.06108652381981074" xyz="0.578353 0.126544 0.0365"/>
+      <origin rpy="3.141592653589793 0 0.06108652381981069" xyz="0.578353 0.126544 0.0365"/>
       <geometry>
-        <mesh filename="package://urdf_export/meshes/arm_cad_link4_jhljab.dae"/>
+        <mesh filename="package://urdf_export/meshes/arm_cad_link4_rbcbnv.dae"/>
       </geometry>
     </visual>
     <collision>
       <!--col__l_Link010__col_Link4__BoundBox/col_Link4__BoundBox.-->
-      <origin rpy="1.5707963267948968 0 0" xyz="-0.072108 -0.00220552 0.039"/>
+      <origin rpy="1.5707963267948963 0 0" xyz="-0.072108 -0.00220552 0.039"/>
       <geometry>
         <box size="0.21919360070894503 0.088 0.07941104040710273"/>
       </geometry>
@@ -102,12 +102,12 @@
       <!--Link011/Link006.-->
       <origin rpy="-3.141592653589793 0 0" xyz="0.743 0.091 -0.0415"/>
       <geometry>
-        <mesh filename="package://urdf_export/meshes/arm_cad_link5_ax69hh.dae"/>
+        <mesh filename="package://urdf_export/meshes/arm_cad_link5_pga2bj.dae"/>
       </geometry>
     </visual>
     <collision>
       <!--col__l_Link011__col_Link5__BoundBox/col_Link5__BoundBox.-->
-      <origin rpy="3.141592653589793 -1.5707963267948963 0" xyz="0.0 0.0 -0.039"/>
+      <origin rpy="3.1415926535897927 -1.5707963267948963 0" xyz="0.0 0.0 -0.039"/>
       <geometry>
         <box size="0.078 0.05000000000000002 0.050000000000000114"/>
       </geometry>
@@ -118,12 +118,12 @@
       <!--Claw001/Claw001.-->
       <origin rpy="1.6341527345556497 -1.5707963267948897 -1.6341527345556497" xyz="-0.0025 -0.091 0.768"/>
       <geometry>
-        <mesh filename="package://urdf_export/meshes/arm_cad_claw_tuzac9.dae"/>
+        <mesh filename="package://urdf_export/meshes/arm_cad_claw_15ag4t.dae"/>
       </geometry>
     </visual>
     <collision>
       <!--col__l_Claw001__col_Claw__BoundBox/col_Claw__BoundBox.-->
-      <origin rpy="0 1.5707963267948963 0" xyz="0.0 0.0 -0.0305"/>
+      <origin rpy="0 1.5707963267948961 0" xyz="0.0 0.0 -0.0305"/>
       <geometry>
         <box size="0.061 0.030000000000000013 0.07"/>
       </geometry>
@@ -134,48 +134,48 @@
     <child link="l_Link006"/>
     <origin rpy="3.141592653589793 0 0" xyz="0.0 0.0 0.005"/>
     <axis xyz="0 0 1"/>
-    <limit effort="0.0" lower="-3.141592653589793" upper="3.141592653589793" velocity="0.017453292519943295"/>
+    <limit effort="0.0" lower="-3.141592653589793" upper="3.141592653589793" velocity="3.141592653589793"/>
   </joint>
   <joint name="l_Link006__to__l_Link007" type="revolute">
     <parent link="l_Link006"/>
     <child link="l_Link007"/>
     <origin rpy="1.5707963267948968 0 0" xyz="0.0 0.045 -0.091"/>
     <axis xyz="0 0 1"/>
-    <limit effort="0.0" lower="-1.5707963267948966" upper="1.5707963267948966" velocity="0.017453292519943295"/>
+    <limit effort="0.0" lower="-1.5707963267948966" upper="1.5707963267948966" velocity="3.141592653589793"/>
   </joint>
   <joint name="l_Link007__to__l_Link008" type="revolute">
     <parent link="l_Link007"/>
     <child link="l_Link008"/>
-    <origin rpy="-3.141592653589793 0 3.141592653589793" xyz="0.0 -0.31 0.0925"/>
+    <origin rpy="-3.141592653589793 0 3.1415926535897927" xyz="0.0 -0.31 0.0925"/>
     <axis xyz="0 0 1"/>
-    <limit effort="0.0" lower="-1.5707963267948966" upper="1.5707963267948966" velocity="0.017453292519943295"/>
+    <limit effort="0.0" lower="-1.5707963267948966" upper="1.5707963267948966" velocity="3.141592653589793"/>
   </joint>
   <joint name="l_Link008__to__l_Link009" type="revolute">
     <parent link="l_Link008"/>
     <child link="l_Link009"/>
     <origin rpy="-1.5707963267948901 -1.5707963267948966 0" xyz="0.0 -0.205 0.046"/>
     <axis xyz="0 0 1"/>
-    <limit effort="0.0" lower="-3.141592653589793" upper="3.141592653589793" velocity="0.017453292519943295"/>
+    <limit effort="0.0" lower="-3.141592653589793" upper="3.141592653589793" velocity="3.141592653589793"/>
   </joint>
   <joint name="l_Link009__to__l_Link010" type="revolute">
     <parent link="l_Link009"/>
     <child link="l_Link010"/>
-    <origin rpy="-1.570796326794897 0 1.5707963267948966" xyz="0.0375 0.0 -0.07"/>
+    <origin rpy="-1.5707963267948966 0 1.5707963267948963" xyz="0.0375 0.0 -0.07"/>
     <axis xyz="0 0 1"/>
-    <limit effort="0.0" lower="-3.141592653589793" upper="0.0" velocity="0.017453292519943295"/>
+    <limit effort="0.0" lower="-3.141592653589793" upper="0.0" velocity="3.141592653589793"/>
   </joint>
   <joint name="l_Link010__to__l_Link011" type="revolute">
     <parent link="l_Link010"/>
     <child link="l_Link011"/>
     <origin rpy="0 0 0" xyz="-0.157705 -0.00964567 0.078"/>
     <axis xyz="0 0 1"/>
-    <limit effort="0.0" lower="-1.5707963267948966" upper="1.5707963267948966" velocity="0.017453292519943295"/>
+    <limit effort="0.0" lower="-1.5707963267948966" upper="1.5707963267948966" velocity="3.141592653589793"/>
   </joint>
   <joint name="l_Link011__to__l_Claw001" type="revolute">
     <parent link="l_Link011"/>
     <child link="l_Claw001"/>
-    <origin rpy="3.141592653589793 -1.5707963267948961 0" xyz="-0.025 0.0 -0.039"/>
+    <origin rpy="-3.141592653589793 -1.5707963267948961 0" xyz="-0.025 0.0 -0.039"/>
     <axis xyz="0 0 1"/>
-    <limit effort="0.0" lower="-3.141592653589793" upper="3.141592653589793" velocity="0.017453292519943295"/>
+    <limit effort="0.0" lower="-3.141592653589793" upper="3.141592653589793" velocity="3.141592653589793"/>
   </joint>
 </robot>
