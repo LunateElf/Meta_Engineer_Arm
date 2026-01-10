@@ -1,0 +1,10 @@
+# Default initial positions for Robot's ros2_control fake system
+
+initial_positions:
+  l_Base001__to__l_Link006: 0
+  l_Link006__to__l_Link007: 0
+  l_Link007__to__l_Link008: 0
+  l_Link008__to__l_Link009: 0
+  l_Link009__to__l_Link010: 0
+  l_Link010__to__l_Link011: 0
+  l_Link011__to__l_Claw001: 0
