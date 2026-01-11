@@ -1,0 +1,27 @@
+# This config file is used by ros2_control
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+
+    meta_engineer_arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+meta_engineer_arm_controller:
+  ros__parameters:
+    joints:
+      - l_Base001__to__l_Link006
+      - l_Link006__to__l_Link007
+      - l_Link007__to__l_Link008
+      - l_Link008__to__l_Link009
+      - l_Link009__to__l_Link010
+      - l_Link010__to__l_Link011
+      - l_Link011__to__l_Claw001
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity

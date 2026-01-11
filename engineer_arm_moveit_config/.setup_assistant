@@ -7,7 +7,7 @@ moveit_setup_assistant_config:
   package_settings:
     author_name: Shengrui Wang
     author_email: shengrui.24@intl.zju.edu.cn
-    generated_timestamp: 1768055714
+    generated_timestamp: 1768135764
   control_xacro:
     command:
       - position

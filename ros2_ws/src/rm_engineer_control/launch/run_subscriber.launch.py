@@ -10,7 +10,7 @@ def generate_launch_description():
     #    例如：如果你的 SRDF 文件叫 config/meta_engineer_arm.srdf，那这里就填 "meta_engineer_arm"
     #    如果你的 SRDF 叫 config/my_robot.srdf，那这里就填 "my_robot"
     # 2. package_name 填你生成的配置包名 "moveit_config"
-    moveit_config = MoveItConfigsBuilder("Robot", package_name="moveit_config") \
+    engineer_arm_moveit_config = MoveItConfigsBuilder("Robot", package_name="engineer_arm_moveit_config") \
         .to_moveit_configs()
     # =================================================
 
@@ -21,11 +21,11 @@ def generate_launch_description():
         executable="pose_subscriber_rpy",  
         output="screen",
         parameters=[
-            moveit_config.robot_description,
-            moveit_config.robot_description_semantic,
-            moveit_config.robot_description_kinematics,
+            engineer_arm_moveit_config.robot_description,
+            engineer_arm_moveit_config.robot_description_semantic,
+            engineer_arm_moveit_config.robot_description_kinematics,
             # 加载 OMPL 规划器
-            moveit_config.planning_pipelines,
+            engineer_arm_moveit_config.planning_pipelines,
             # 如果你的控制器配置文件叫 ros2_controllers.yaml (Setup Assistant 默认生成这个名字)
             # trajectory_execution 会自动处理，或者你可以显式指定：
             # moveit_config.trajectory_execution, 

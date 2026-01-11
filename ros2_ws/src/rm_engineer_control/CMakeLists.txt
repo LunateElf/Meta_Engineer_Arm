@@ -5,6 +5,31 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
+# find_package(hardware_interface REQUIRED)
+# find_package(pluginlib REQUIRED)
+# find_package(rclcpp REQUIRED)
+
+# add_library(engineer_hardware SHARED
+#   src/engineer_hardware.cpp
+# )
+# target_include_directories(engineer_hardware PRIVATE include)
+# ament_target_dependencies(engineer_hardware
+#   hardware_interface
+#   pluginlib
+#   rclcpp
+# )
+
+# pluginlib_export_plugin_description_file(hardware_interface engineer_hardware.xml)
+
+# install(TARGETS
+#   engineer_hardware
+#   ARCHIVE DESTINATION lib
+#   LIBRARY DESTINATION lib
+#   RUNTIME DESTINATION bin
+# )
+
+# install(FILES engineer_hardware.xml DESTINATION share/${PROJECT_NAME})
+
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(moveit_ros_planning_interface REQUIRED)
