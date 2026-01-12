@@ -36,6 +36,8 @@ find_package(moveit_ros_planning_interface REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(tf2_geometry_msgs REQUIRED)
+find_package(trajectory_msgs REQUIRED)
+find_package(device_interface REQUIRED)
 
 add_executable(pose_subscriber_rpy src/pose_subscriber_rpy.cpp)
 ament_target_dependencies(pose_subscriber_rpy
@@ -46,8 +48,16 @@ ament_target_dependencies(pose_subscriber_rpy
   tf2_geometry_msgs
 )
 
+add_executable(joint_trajectory_converter src/joint_trajectory_converter.cpp)
+ament_target_dependencies(joint_trajectory_converter
+  rclcpp
+  trajectory_msgs
+  device_interface
+)
+
 install(TARGETS
   pose_subscriber_rpy
+  joint_trajectory_converter
   DESTINATION lib/${PROJECT_NAME}
 )
 
